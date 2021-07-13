@@ -1,0 +1,130 @@
+   .header{
+	   height: 150;
+	   width: 100%;
+	   background-color: #fff0be;
+	   left: 0px;
+	   top: 0px;
+	   position: fixed;
+   }
+   .bg{
+	width: 90%;
+	margin-left: 5%; /* Отступ слева */
+	margin-right: 5%; /* Отступ слева */
+	background-size: cover;
+	   
+   }
+.baner {
+	width: 100%;
+	height: 725px;
+	border-radius: 10px;
+	border: 1px solid #444;
+	margin-top: 150px;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+}
+   .line { 
+    border-left: 4px solid brown; /* Параметры линии */ 
+    margin-left: 0px; /* Отступ слева */
+    padding-left: 5px; /* Расстояние от линии до текста */ 
+	Font-size: 30px;
+	text-decoration: none;
+   }
+   .noline { 
+	Font-size: 30px;
+	text-decoration: none;
+   }
+   .logo {
+	margin-left: 15px; /* Отступ слева */
+	margin-top: 15px; /* Отступ слева */
+   }
+   .silka{
+	margin-top: -80px; /* Отступ слева */
+	margin-right: 25px;
+
+   }
+   .main{
+	   margin-top: -150;
+	   justify-content: space-evenly;
+	   display: flex;
+   }
+   .info{
+	 border: 4px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+	 height:300px;
+	 width:400px;
+	 text-align: center;
+	background-image:url(../images/bg2.jpg)
+   }
+.txt{
+Font-size: 20px;
+} 
+.about{
+	margin-top: 200px;
+	position: flex;
+	Height:200px;
+	width:100%;
+	text-align: center;
+	background-color: #fff0be;
+	right: 0px;
+	left: 0px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+}
+.cost{
+	margin-top: 20px;
+	margin-left: 45%;
+	position: flex;
+	Height:200px;
+	width:200px;
+	text-align: center;
+	background-color: #fff0be;
+	right: 0px;
+	left: 0px;
+}
+.price{
+	width:190px;
+	margin-top: 20px;
+	background-color: #fff0be;
+}
+.baner .img {
+	width: 100%;
+	height: 100%;	
+	border-radius: 10px;
+	background: url(../images/1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	}
+	.contact_container {
+	background-color: #fff0be;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+	text-align: center;
+	width: 300px;
+	margin: 50px auto;
+	padding: 1em;
+}
+
+.contact_container .text {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 1em;
+}
+
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff0be;
+	padding: 1em;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .5);
+	border-radius: 10px 10px 0 0;
+}
+
+.footer img {
+	border-radius: 10px;
+	transition: .2s;
+}
+

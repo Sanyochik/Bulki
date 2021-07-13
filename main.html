@@ -1,0 +1,100 @@
+<head>
+  <link href="css/style.css" rel="stylesheet">
+    <style>
+   body {
+    background-image: url(images/bg.jpg);
+    background-color: #c7b39b; /* Цвет фона */
+   }
+  </style>
+	<script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div class="header" align="left">
+	<div class="logo" align="left">
+		<img src="images/logo.png" width="130" height="130">
+
+	</div> 
+		<div class="silka" align="right">
+			<a href="#" align="right" class="noline">Главная</a>
+			<a href="#" class="line" align="right">Контакты</a>
+			<a href="#" class="line" align="right">О нас</a>
+		</div> 
+</div>
+<div class="bg">
+<div class="baner">
+<div class="img" id="img"></div>
+</div>
+<div class="main">
+	<div class="info">
+	<h1 class="zagolovok">Ассортимент</h1>
+	<p class="txt">Фуршетные пирожки, выпеченные нашими пекарями с любовью, – это сочное мясо и курица, свежие картофель, капуста лук с яйцом, ароматные яблочки, окутанные нежнейшим мягким тестом</p>
+	</div>
+	<div class="info">
+	<h1 class="zagolovok">Доставка</h1>
+	<p class="txt">
+		Доставка пирожков для
+		фуршета – это возможность
+		придать Вашему
+		мероприятию атмосферы
+		домашнего уюта, а также
+		добавить нотку
+		национального русского
+		колорита
+	</p>
+	</div>
+	<div class="info">
+	<h1 class="zagolovok">Акции и скидки</h1>
+	<p class="txt">
+		Программа лояльности –
+		дарим подарки при заказе в
+		Ваш день рождения,
+		утренний комбо-завтрак со
+		скидкой 15%, вечерняя
+		скидка 40% с 19:00 до
+		21:00 на всю продукцию
+		пирожковой лавки
+	</p>
+	</div>
+</div>
+<div class="about">
+	<h1>О нас</h1>
+	<p class="txt">
+		Кафе-пекарня «Пирожковая лавка» основана в 2015 году, и с тех пор мы стараемся радовать Вас отменным качеством нашей продукции. Разнообразие начинок для наших пирожков придется по душе и сладкоежкам, и любителям сытных трапез!
+		С момента основания «Пирожковой лавки» неизменными остались и наши принципы. Мы производим пирожки только из натурального и качественного сырья, индивидуально подходим к каждому клиенту, стараемся сделать доставку максимально удобной, с особой чуткостью относимся к каждому Вашему обращению или пожеланию
+	</p>
+</div>
+	<div class="cost" id="price">
+		<h1>Цены</h1>
+		<select name="price" id="products">
+			<option value="20">Капуста</option>
+			<option value="25">Лук/яйцо</option>
+			<option value="17">Картошка</option>
+			<option value="30">Мясо</option>
+			<option value="28">Курица</option>
+			<option value="24">Яблоко</option>
+		</select>
+		<button onclick="getPrice();">Вывести цену</button>
+		<div class="price_output" id="price_output">Цена изделия: </div>
+	</div>
+	<div class="contact_container" id="contacts">
+		<h1>Контакты</h1>
+		<div class="text">
+			<span>САРАТОВ,</span>
+			<span>ул. Радищева, д. 15</span>
+			<span>Пекарня: +7 (937) 111-2-333</span>
+			<span>ДОСТАВКА 9:00 - 21:00</span>
+			<span>+7 (937) 111-2-333</span>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="social">
+			<a href="https://www.facebook.com"><img src="images/facebook.ico" alt="" height="40"></a>
+			<a href="https://vk.com"><img src="images/vk.ico" alt="" height="40"></a>
+			<a href="https://www.instagram.com/"><img src="images/instagram.ico" alt="" height="40"></a>
+			<a href="https://ok.ru/"><img src="images/odnoklassniki.ico" alt="" height="40"></a>			
+		</div>		
+		<p>&#169 2015 – 2018 «Пирожковая лавка»</p>
+	</div>
+</div>
+ <script src="script.js"></script>
+</body>
